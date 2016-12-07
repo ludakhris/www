@@ -91,6 +91,13 @@ connection.
 	This value is an optional argument to the constructor of the sslfactory
 	class provided above. For more information see the section called [“Custom SSLSocketFactory”](ssl-factory.html). 
 
+* `sslContextProtocol = String`
+
+	This value is an optional argument to the constructor of the SSLContext. 
+	This property controls the SSL protocol to use when creating an SSLContext. 
+	Possible values are dependent on your version of Java but possible values for Java 8 are documented here: 
+	[SSL Context Reference](http://docs.oracle.com/javase/8/docs/technotes/guides/security/StandardNames.html#SSLContext).
+
 * `sslmode = String`
 
 	possible values are "verify-ca" and "verify-full" setting these will 

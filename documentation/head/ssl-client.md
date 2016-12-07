@@ -53,7 +53,8 @@ In the event of problems extra debugging information is available by adding
 `-Djavax.net.debug=ssl` to your command line.
 
 To instruct the JDBC driver to try and establish a SSL connection you must add
-the connection URL parameter `ssl=true`. See [SSL Connection parameters](connect.html#ssl)
+the connection URL parameter `ssl=true`. There are also additional optional SSL connection
+parameters you can specifiy to control the type of connection, see [SSL Connection parameters](connect.html#ssl)
 
 <a name="nonvalidating"></a>
 ## Using SSL without Certificate Validation
